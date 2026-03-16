@@ -197,7 +197,7 @@ http://localhost:3000
 ---
 
 ## 📸 Screenshots
-
+![image alt]([image_url](https://github.com/Amal-vishnu04/Foodbridge/blob/006f1ce88aeee96ab5c6eabce92e6c459e91058a/Screenshot%202026-03-16%20135336.png)).
 
 
 >
