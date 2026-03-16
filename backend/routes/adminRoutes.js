@@ -1,0 +1,10 @@
+const router = require('express').Router();
+const ctrl = require('../controllers/adminController');
+const { protect, adminOnly } = require('../middleware/authMiddleware');
+router.use(protect, adminOnly);
+router.get('/stats', ctrl.getStats);
+router.get('/users', ctrl.getAllUsers);
+router.put('/users/:id/toggle', ctrl.toggleUser);
+router.get('/donations', ctrl.getAllDonations);
+router.put('/donations/:id/fake', ctrl.markFake);
+module.exports = router;
